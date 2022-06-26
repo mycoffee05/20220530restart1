@@ -1,5 +1,6 @@
 '''
 内置函数 直接拿来用的func
+zip
 
 
 '''
@@ -50,3 +51,26 @@
 # print(help(str)) #按住ctrl可查命令源码
 # s = '呵呵哒'
 # print(dir(s))
+# lst1 = ['zhang','ye','shang','yue']
+# lst2 = [40,20,30,70]
+# lst3 = ['a','b','c','d']
+# result = []
+# for i in range(len(lst1)):
+#     fir = lst1[i]
+#     sec = lst2[i]
+#     third = lst3[i]
+#     result.append((fir,sec,third))
+# print(result)
+# result = zip(lst1,lst2,lst3)
+# # for item in result:
+# #     print(item)
+# lst = list(result)
+# print(lst)
+# a = 188
+# print(locals()) #此时locals被写入全局作用域范围内，显示全局内容。
+# def func():
+#     a = 44
+#     print(locals())
+# func()
+c = 12
+print(globals())
